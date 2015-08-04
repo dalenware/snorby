@@ -12,7 +12,7 @@ gem 'rails',                       RAILS_VERSION
 gem 'jquery-rails'
 gem 'bundler',                     '>= 1.0.0'
 gem 'env'
-gem 'json', '~> 1.7'
+gem 'json', '~> 1.8'
 
 # Jruby
 gem 'jruby-openssl',               :platforms => :jruby
@@ -44,7 +44,7 @@ gem 'dm-aggregates',               DM_VERSION
 gem 'dm-timestamps',               DM_VERSION
 gem 'dm-observer',                 DM_VERSION
 gem 'dm-serializer',               DM_VERSION
-gem 'dm-is-read_only',             '~> 0.3', :git => 'https://github.com/postmodern/dm-is-read_only.git' 
+gem 'dm-is-read_only',             '~> 0.3', :git => 'https://github.com/postmodern/dm-is-read_only.git'
 gem 'dm-chunked_query',            '~> 0.3'
 
 # Deploy with Capistrano
@@ -56,7 +56,8 @@ gem 'cancan',                      '~> 1.6'
 gem 'devise',                      '~> 1.4'
 gem 'dm-devise',                   '~> 1.5'
 gem 'rubycas-client'
-gem 'devise_cas_authenticatable',  :git => 'https://github.com/Snorby/snorby_cas_authenticatable.git'
+gem 'devise_cas_authenticatable',  '~> 1.0'
+#,  :git => 'https://github.com/Snorby/snorby_cas_authenticatable.git'
 gem "mail",                        '~> 2.3'
 gem "RedCloth",                    "~> 4.2.9", :require => 'redcloth'
 gem 'chronic',                     '~> 0.3.0'
