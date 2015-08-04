@@ -4,6 +4,7 @@ RAILS_VERSION = '3.1.12'
 RSPEC_VERSION = '~> 2.0.0'
 DATAMAPPER    = 'https://github.com/datamapper'
 DM_VERSION    = '~> 1.2.0'
+ruby '1.9.3'
 
 gem 'rake', '0.9.2'
 gem 'request_store', '~> 1.0.5'
