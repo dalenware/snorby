@@ -253,6 +253,11 @@ GEM
       activesupport (= 3.1.12)
       bundler (~> 1.0)
       railties (= 3.1.12)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.4)
+    rails_stdout_logging (0.0.3)
     railties (3.1.12)
       actionpack (= 3.1.12)
       activesupport (= 3.1.12)
@@ -378,6 +383,7 @@ DEPENDENCIES
   netaddr (~> 1.5.0)
   pdfkit (~> 0.4.6)
   rails (= 3.1.12)
+  rails_12factor
   railties (= 3.1.12)
   rake (= 0.9.2)
   request_store (~> 1.0.5)
@@ -392,3 +398,6 @@ DEPENDENCIES
   turn
   warbler
   whois (~> 2.3.0)
+
+BUNDLED WITH
+   1.10.6

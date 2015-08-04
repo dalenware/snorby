@@ -85,9 +85,11 @@ gem 'netaddr',                     '~> 1.5.0'
 gem 'dm-zone-types',               '~> 0.3'
 gem 'timezone_local',              '~> 0.1.5'
 
+gem 'thin'
+gem 'rails_12factor', group: :production
+
 group(:development) do
 	gem "letter_opener"
-  gem 'thin'
 end
 
 group(:test) do
